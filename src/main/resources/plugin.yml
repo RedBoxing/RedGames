@@ -1,0 +1,16 @@
+name: RedGames
+version: '${version}'
+main: fr.redboxing.redgames.RedGames
+api-version: 1.19
+authors: [RedBoxing]
+description: A plugin that add many games
+website: https://redboxing.fr
+depend:
+  - 'Multiverse-Core'
+  - 'FastChunkPregenerator'
+commands:
+  redgames:
+    description: open the games menu
+    aliases:
+      - rg
+    permission: fr.redboxing.redgames.redgames
